@@ -1,0 +1,40 @@
+/* Modal Styles */
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-container div {
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 15px; /* Increase margin at the bottom */
+    color: #0077FF; /* Change text color to a different shade of blue */
+    text-transform: uppercase; /* Uppercase text */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .modal-container button.modal-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #0077FF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add margin to separate the button from the last text */
+  }
+  
+  .modal-container button.modal-btn:hover {
+    background-color: #0055CC;
+  }
+  
+  

@@ -1,0 +1,19 @@
+/* Reset and Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/sky1.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Index Styles */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
